@@ -2,12 +2,12 @@
 
 1. Create SSH key for gitlab
     1. ssh-keygen -f ~/.ssh/id_ucibootcamp
-        Enter passphrase x2
+        <br />Enter passphrase x2
 2. Upload the SSH Public key to gitlab
     1. Log into Gitlab
     2. Goto Account -> SSH keys
     3. Enter Title: "Laptop to Gitlab"
-    4. Past Public Key ("id_ucibootcamp.pub")
+    4. Paste Public Key ("id_ucibootcamp.pub")
     5. Click "Add key"
 3. Create ucibootcamp Config File
     1. mkdir -p ~/.ssh/config.d
